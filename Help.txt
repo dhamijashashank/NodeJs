@@ -1,1 +1,26 @@
 Help Document 
+
+
+Example 1: contain example of video 1 and 2
+
+
+Example 2: contain example of video 3 and 4
+
+
+Example 3: contain example of video 5 and 6
+
+
+Example 4: contain example of video 7 
+			* Example of Module : show how to import one method present in b class in a class.
+			* Files are app.js and movie.js 
+
+
+
+Example 5: contain example of video 8 
+			* Example of Module in Depth :
+			* Files are app.js and movies.js
+			
+
+
+
+
