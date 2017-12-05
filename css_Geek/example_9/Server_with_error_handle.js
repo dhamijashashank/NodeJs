@@ -27,7 +27,7 @@ function sent_404_onRequest( response){
 
 	console.log("In Error Method");
 	response.writeHead(404,{"Context-Type": "text/plain"});
-	response.write("Here is the response");
+	response.write("You are requesting for invalid URL");
 	response.end();
 }
 
