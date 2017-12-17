@@ -1,0 +1,40 @@
+<html>
+<head>
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBg8NM2NlnhgLY1_RyYkAd_Mt0I07C6ZQo",
+            authDomain: "test-df338.firebaseapp.com",
+            databaseURL: "https://test-df338.firebaseio.com",
+            projectId: "test-df338",
+            storageBucket: "test-df338.appspot.com",
+            messagingSenderId: "92374388046"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <title>Hare krishna Voting App.....</title>
+</head>
+<body>
+    <h1>Voting App</h1>
+    <button onclick= {signInWithGoogle()} >
+        SignInWithGoogleAccount
+    </button>
+    <script>
+        function signInWithGoogle(){
+            console.log("hare krishna in method")
+            var googleAuthProvider = new firebase.auth.GoogleAuthProvider
+
+            firebase.auth().signInWithPopup(googleAuthProvider)
+                .then( function(data){
+                    console.log(data)
+                })
+                .catch( function (data) {
+                    console.log(data)
+                })
+        }
+    </script>
+
+</body>
+</html>
