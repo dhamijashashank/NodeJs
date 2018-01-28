@@ -11,7 +11,7 @@ Section 3 :Node Js Fundamental ( Note App)
 			* To Load 3rd Party Library like express
 			* To Load other files written by us like if we write code in multiple file and we want to import code 				from supporting file to main file then we use this 
 	
-	Example 3: Project Name : n-3-3-require-own-files
+	Example 3: Project Name : n-3-3-require-own-files : Video 10
 		Explination : Show how to use require for importing own file.
 			* If we want to export any method of file then it should be like below
 			  First Example without Parameter:	
@@ -23,11 +23,31 @@ Section 3 :Node Js Fundamental ( Note App)
 				module.exports.add = (a, b) => {
 				  return a + b;
 				};
-
-Doubts :
+				
+	Example 4 : Project Name : n-3-4-3rd-party-modules : Video 11
+		Explination : 
+			* To make any node js project run below command 
+				npm init
+				After wrting above command it ask for few parameter for default values press enter.
+				This command genrate package.json file having full details of project like dependecy etc.
+				
+			* If we want to include any external package in our project then we have to right below command 
+				npm install <package_name>
+				Example : npm install lodash
+			
+			* lodash lib has some very usefull inbuild method some of the are as follow
+				_.isString('')	: return true if passed argument is string.
+				_.isArgument()	: return true if passed value is argument.
+				_.isBuffer() 	: return true if passed value is buffer.
+				_.uniq()	: in argument we need to pass array and it will return only unique element 						     from it , means it remove duplicate element from array 
+				many more function are there like uniqBy() , uniqueID() , uniqWith();
+				
 1. What is difference between single quates(' ') , double quates(" ") and tilted quotes (``)
 Ans :	If we write any thing in single or double quotes then it will treat as string and print on console as it is but if we 
 	we using tilted quotes(` `) we can access variable in it like this `Hello ${user.username}!` .suppose usename is 	krishna then output is "Hello krishna !" , we are able to append variable without using + operator.
+2. Difference between const , var and let in node js ?
+3. While importing some lib we name variable like _ what does it means?
+4. 
 
 
 			
