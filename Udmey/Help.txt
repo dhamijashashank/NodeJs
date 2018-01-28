@@ -1,24 +1,35 @@
 Help Document 
 
+Section 2 : Getting Setup 
+	Example 1: project name :n-2-6-hello-world 
+		Explination : Having print statment ( using console)
+	
+Section 3 :Node Js Fundamental ( Note App)
+	Example 2: Project Name : n-3-2-module-basics
+		Explination : Show basic use of require
+			* Load in Modules that come bundle with node JS Like HTTP(which let us make web server) and FS(for 			     access the file from our machine ) Module 
+			* To Load 3rd Party Library like express
+			* To Load other files written by us like if we write code in multiple file and we want to import code 				from supporting file to main file then we use this 
+	
+	Example 3: Project Name : n-3-3-require-own-files
+		Explination : Show how to use require for importing own file.
+			* If we want to export any method of file then it should be like below
+			  First Example without Parameter:	
+				module.exports.addNote = () => {
+				  console.log('addNote');
+				  return 'New note';
+				};
+			  Second Example with Parameter:
+				module.exports.add = (a, b) => {
+				  return a + b;
+				};
 
-Example 1: contain example of video 1 and 2
+Doubts :
+1. What is difference between single quates(' ') , double quates(" ") and tilted quotes (``)
+Ans :	If we write any thing in single or double quotes then it will treat as string and print on console as it is but if we 
+	we using tilted quotes(` `) we can access variable in it like this `Hello ${user.username}!` .suppose usename is 	krishna then output is "Hello krishna !" , we are able to append variable without using + operator.
 
 
-Example 2: contain example of video 3 and 4
-
-
-Example 3: contain example of video 5 and 6
-
-
-Example 4: contain example of video 7 
-			* Example of Module : show how to import one method present in b class in a class.
-			* Files are app.js and movie.js 
-
-
-
-Example 5: contain example of video 8 
-			* Example of Module in Depth :
-			* Files are app.js and movies.js
 			
 
 
