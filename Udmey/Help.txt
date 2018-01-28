@@ -40,6 +40,8 @@ Section 3 :Node Js Fundamental ( Note App)
 				_.isArgument()	: return true if passed value is argument.
 				_.isBuffer() 	: return true if passed value is buffer.
 				_.uniq()	: in argument we need to pass array and it will return only unique element 						     from it , means it remove duplicate element from array 
+				_.reduce()	: return first element if pass array as input and reutrn first character if 						      string is passed as argument.
+				_.reduceRight() : Same as above one except it retutn last / right most element/ value.
 				many more function are there like uniqBy() , uniqueID() , uniqWith();
 				
 1. What is difference between single quates(' ') , double quates(" ") and tilted quotes (``)
