@@ -44,6 +44,12 @@ Section 3 :Node Js Fundamental ( Note App)
 				_.reduceRight() : Same as above one except it retutn last / right most element/ value.
 				many more function are there like uniqBy() , uniqueID() , uniqWith();
 				
+	Example 5: Project Name : n-3-5-global-module : video 12
+		Explination : 
+			* nodemon : If we want to restrat server once you make any change in code 
+			Example : nodemon app.js ( insted of using node app.js we have to use nodemon).
+			 	  to stop nodemon server we need to press ctrl + c 
+				
 1. What is difference between single quates(' ') , double quates(" ") and tilted quotes (``)
 Ans :	If we write any thing in single or double quotes then it will treat as string and print on console as it is but if we 
 	we using tilted quotes(` `) we can access variable in it like this `Hello ${user.username}!` .suppose usename is 	krishna then output is "Hello krishna !" , we are able to append variable without using + operator.
