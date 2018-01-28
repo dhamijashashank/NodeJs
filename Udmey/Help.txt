@@ -49,6 +49,11 @@ Section 3 :Node Js Fundamental ( Note App)
 			* nodemon : If we want to restrat server once you make any change in code 
 			Example : nodemon app.js ( insted of using node app.js we have to use nodemon).
 			 	  to stop nodemon server we need to press ctrl + c 
+				  
+	Example 6: Project Name : n-3-6-getting-input : video 13
+		Explination : how to get input from user
+			* using process.argv[2] we are able to read argument, as our first parameter is always 3rd element so 				we use [2]
+			Example : var command = process.argv[2];
 				
 1. What is difference between single quates(' ') , double quates(" ") and tilted quotes (``)
 Ans :	If we write any thing in single or double quotes then it will treat as string and print on console as it is but if we 
